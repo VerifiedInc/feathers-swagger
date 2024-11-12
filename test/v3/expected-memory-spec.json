@@ -22,7 +22,7 @@
     "title": "openapi generator v3 tests",
     "version": "1.0.0"
   },
-  "openapi": "3.0.3",
+  "openapi": "3.1.0",
   "paths": {
     "/message": {
       "get": {
@@ -84,9 +84,7 @@
         },
         "security": [],
         "summary": "",
-        "tags": [
-          "message"
-        ]
+        "tags": ["message"]
       },
       "post": {
         "description": "Creates a new resource with data.",
@@ -121,9 +119,7 @@
         },
         "security": [],
         "summary": "",
-        "tags": [
-          "message"
-        ]
+        "tags": ["message"]
       }
     },
     "/message/{id}": {
@@ -163,9 +159,7 @@
         },
         "security": [],
         "summary": "",
-        "tags": [
-          "message"
-        ]
+        "tags": ["message"]
       },
       "get": {
         "description": "Retrieves a single resource with the given id from the service.",
@@ -203,9 +197,7 @@
         },
         "security": [],
         "summary": "",
-        "tags": [
-          "message"
-        ]
+        "tags": ["message"]
       },
       "patch": {
         "description": "Updates the resource identified by id using data.",
@@ -253,9 +245,7 @@
         },
         "security": [],
         "summary": "",
-        "tags": [
-          "message"
-        ]
+        "tags": ["message"]
       },
       "put": {
         "description": "Updates the resource identified by id using data.",
@@ -303,9 +293,7 @@
         },
         "security": [],
         "summary": "",
-        "tags": [
-          "message"
-        ]
+        "tags": ["message"]
       }
     }
   },

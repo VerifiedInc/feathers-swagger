@@ -62,11 +62,7 @@
             "type": "number"
           }
         },
-        "required": [
-          "email",
-          "password",
-          "id"
-        ]
+        "required": ["email", "password", "id"]
       },
       "UserData": {
         "additionalProperties": false,
@@ -79,10 +75,7 @@
             "type": "string"
           }
         },
-        "required": [
-          "email",
-          "password"
-        ]
+        "required": ["email", "password"]
       },
       "UserQuery": {
         "type": "object",
@@ -112,11 +105,7 @@
             "type": "array",
             "items": {
               "type": "string",
-              "enum": [
-                "email",
-                "password",
-                "id"
-              ]
+              "enum": ["email", "password", "id"]
             }
           },
           "email": {
@@ -305,9 +294,7 @@
         },
         "description": "Creates a new resource with data.",
         "summary": "",
-        "tags": [
-          "authentication"
-        ],
+        "tags": ["authentication"],
         "security": [],
         "requestBody": {
           "required": true,
@@ -342,9 +329,7 @@
         },
         "description": "Logout the currently logged in user",
         "summary": "",
-        "tags": [
-          "authentication"
-        ],
+        "tags": ["authentication"],
         "security": [
           {
             "BearerAuth": []
@@ -388,9 +373,7 @@
         },
         "description": "Logout the currently logged in user",
         "summary": "",
-        "tags": [
-          "authentication"
-        ],
+        "tags": ["authentication"],
         "security": [
           {
             "BearerAuth": []
@@ -448,9 +431,7 @@
         },
         "description": "Retrieves a list of all resources from the service.",
         "summary": "",
-        "tags": [
-          "users"
-        ],
+        "tags": ["users"],
         "security": [
           {
             "BearerAuth": []
@@ -479,9 +460,7 @@
         },
         "description": "Creates a new resource with data.",
         "summary": "",
-        "tags": [
-          "users"
-        ],
+        "tags": ["users"],
         "security": [],
         "requestBody": {
           "required": true,
@@ -531,9 +510,7 @@
         },
         "description": "Retrieves a single resource with the given id from the service.",
         "summary": "",
-        "tags": [
-          "users"
-        ],
+        "tags": ["users"],
         "security": [
           {
             "BearerAuth": []
@@ -575,9 +552,7 @@
         },
         "description": "Updates the resource identified by id using data.",
         "summary": "",
-        "tags": [
-          "users"
-        ],
+        "tags": ["users"],
         "security": [
           {
             "BearerAuth": []
@@ -629,9 +604,7 @@
         },
         "description": "Updates the resource identified by id using data.",
         "summary": "",
-        "tags": [
-          "users"
-        ],
+        "tags": ["users"],
         "security": [
           {
             "BearerAuth": []
@@ -683,9 +656,7 @@
         },
         "description": "Removes the resource with id.",
         "summary": "",
-        "tags": [
-          "users"
-        ],
+        "tags": ["users"],
         "security": [
           {
             "BearerAuth": []
@@ -694,7 +665,7 @@
       }
     }
   },
-  "openapi": "3.0.3",
+  "openapi": "3.1.0",
   "tags": [
     {
       "name": "authentication",

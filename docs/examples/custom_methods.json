@@ -19,9 +19,7 @@
       "custom_response": {
         "title": "Custom service response",
         "type": "object",
-        "required": [
-          "method"
-        ],
+        "required": ["method"],
         "properties": {
           "method": {
             "type": "string",
@@ -44,9 +42,7 @@
       "custom_request": {
         "title": "Custom service requestBody",
         "type": "object",
-        "required": [
-          "method"
-        ],
+        "required": ["method"],
         "properties": {
           "string": {
             "type": "string",
@@ -108,9 +104,7 @@
         },
         "description": "Do something with a GET method",
         "summary": "",
-        "tags": [
-          "custom method service"
-        ],
+        "tags": ["custom method service"],
         "security": []
       }
     },
@@ -155,9 +149,7 @@
         },
         "description": "A custom POST method",
         "summary": "",
-        "tags": [
-          "custom method service"
-        ],
+        "tags": ["custom method service"],
         "security": [
           {
             "BearerAuth": []
@@ -217,9 +209,7 @@
         },
         "description": "A custom customPatchWithId method.",
         "summary": "",
-        "tags": [
-          "custom method service"
-        ],
+        "tags": ["custom method service"],
         "security": [],
         "requestBody": {
           "required": true,
@@ -277,14 +267,12 @@
         },
         "description": "A custom GET method",
         "summary": "",
-        "tags": [
-          "custom method service"
-        ],
+        "tags": ["custom method service"],
         "security": []
       }
     }
   },
-  "openapi": "3.0.3",
+  "openapi": "3.1.0",
   "tags": [
     {
       "name": "custom method service",
